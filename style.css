@@ -1,0 +1,117 @@
+body
+{
+    background-color:#091353;
+    font-family: 'Acme', sans-serif;
+    color: white;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+
+header >h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    font-size: 40px;
+
+    font-weight: bolder;
+}
+
+.score-board{
+    border: 3px solid orange;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 35px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+    height: 80px;
+}
+
+.badge{
+ background: #191A19;
+ font-size: 20px;
+ padding: 5px;
+}
+
+#user-label
+{
+    position: absolute;
+    top: 20px;
+    left: -25px;
+}
+
+#computer-label
+{
+    position: absolute;
+    top: 20px;
+    right: -50px;
+}
+
+.result > p
+{
+    font-size: 35px;
+    text-align: center;
+}
+
+.choices
+{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.choice
+{
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px solid orange;
+    padding: 20px;
+    margin: 0 30px;
+    transition:all 0.3s ease-in-out;
+}
+
+.choice:hover
+{
+    cursor: pointer;
+    background: #700B97;
+}
+
+img{
+    height: 120px;
+}
+
+#action-message
+{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.green-glow
+{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow
+{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow
+{
+    border: 4px solid #AAA492;
+    box-shadow: 0 0 10px #9A9483;
+}
